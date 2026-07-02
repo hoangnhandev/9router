@@ -25,4 +25,5 @@ services:
 
 volumes:
   9router-data:
+    external: true
     name: 9router-data
